@@ -4,8 +4,11 @@ This is the implementation of deep neural network classifiers to classify input 
 The project consists four parts: 
 
 • Lenet Structure with SGD as optimizer 
+
 • Lenet Structure with ADAM as optimizer
+
 • Modified Lenet structure
+
 • VGGnet-19 Structure
 
 ## Dataset
@@ -15,6 +18,9 @@ The dataset is divided into five training batches and one test batch, each with 
 
 ## Accuracy
 Lenet with SGD: 60.25%
+
 Lenet with ADAM: 57.5%
+
 Modified Lenet: 70.96%
+
 VGG-19: 80.62%
